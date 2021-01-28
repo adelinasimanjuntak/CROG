@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPage">
+
+    <ImageView
+        android:id="@+id/logocrog"
+        android:layout_width="403dp"
+        android:layout_height="99dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/crog"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <Button
+        android:id="@+id/LOGIN_FIRSTPAGE"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="304dp"
+        android:backgroundTint="#0071C7"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/REGISTER_FIRSTPAGE"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="249dp"
+        android:backgroundTint="#05AB08"
+        android:text="REGISTER" />
+
+
+
+</RelativeLayout>
